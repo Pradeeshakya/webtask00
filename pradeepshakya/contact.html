@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: black;
+        }
+     .contain {
+    position: relative;
+    border: 2px solid rgb(252, 247, 247);
+    max-width: 400px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: rgb(12, 12, 12);
+    left: 32%;
+    top: 160px;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.input-box span {
+    color: antiquewhite;
+}
+
+.input-box {
+    margin: 8px;
+}
+
+.user-details input {
+    width: 100%;
+    height: 30px;
+}
+
+#btn {
+    border-radius: 2px;
+    border: none;
+    width: 390px;
+    height: 30px;
+    background-image: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: aliceblue;
+}
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="title">Contact us</div>
+        <form action="#" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" name="email" id="email-box" placeholder="Enter your email">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone No</span>
+                    <input type="text" name="phone_number" placeholder="Enter your phone no">
+                </div>
+
+            </div>
+            <br> &nbsp;
+
+            <input id="btn" type="submit" name="submit" value="Register">
+
+        </form>
+    </div>
+</body>
+</html>
